@@ -1,0 +1,12 @@
+{
+  "prompt": "Act as a senior data analyst. Review the employee data and share: 1) total staff, 2) mean salary by department, 3) who are the managers.",
+  "use_toon": false,
+  "data": {
+    "employees": [
+      { "id": 1, "name": "Alice", "department": "Engineering", "role": "Engineer", "salary": 95000, "manager": false },
+      { "id": 2, "name": "Bob", "department": "Engineering", "role": "Manager", "salary": 120000, "manager": true },
+      { "id": 3, "name": "Clara", "department": "Sales", "role": "Executive", "salary": 70000, "manager": false },
+      { "id": 4, "name": "Diana", "department": "HR", "role": "Manager", "salary": 90000, "manager": true }
+    ]
+  }
+}

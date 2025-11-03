@@ -1,0 +1,39 @@
+{
+  "name": "openai-service",
+  "version": "1.0.0",
+  "description": "A lightweight OpenAI communication service with TOON (Token-Oriented Object Notation) and JSON benchmarking support.",
+  "type": "commonjs",
+  "author": "Rohit shukla<rshuklas@vendasta.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohitvendasta/toon"
+  },
+  "keywords": [
+    "openai",
+    "api-service",
+    "toon",
+    "token-oriented-object-notation",
+    "json",
+    "benchmark",
+    "typescript",
+    "express"
+  ],
+  "scripts": {
+    "start": "npx ts-node src/server.ts",
+    "dev": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "axios": "^1.13.1",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "nodemon": "^3.1.4"
+  }
+}
